@@ -9,6 +9,10 @@ const sequelize = process.env.JAWSDB_URL
       dialect: 'mysql',
       dialectOptions: {
         decimalNumbers: true,
+        host: 'localhost',
+        user: 'root',
+        password: '123456',
+        port: 3306
       },
     });
 
