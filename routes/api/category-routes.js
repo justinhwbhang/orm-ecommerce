@@ -8,7 +8,6 @@ router.get('/', (req, res) => {
     }).then(allCategories => res.json(allCategories))
 
         .catch(err => res.status(400).json(err))
-
 });
 
 router.get('/:id', (req, res) => {
